@@ -16,8 +16,7 @@
 - 支持数万元素显示
 - 等等...
 
-![image](https://user-images.githubusercontent.com/7581981/125632732-811618bc-d8fd-4ec0-ae41-a26e0d1bc477.png)
-
+![GIF 2021-7-14 21-48-50](https://user-images.githubusercontent.com/7581981/125634905-ccbb41d4-30cb-4062-9c7c-55d05ee6b918.gif)
 
 # 文件夹
 
