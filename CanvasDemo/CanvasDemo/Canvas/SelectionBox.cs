@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace CanvasDemo.Canvas
 {
-    public class SelectionBox : Element, IMouseEvent
+    public class SelectionBox : Element
     {
         /// <summary>
         /// 是否从左往右选择

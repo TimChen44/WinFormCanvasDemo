@@ -11,7 +11,7 @@ namespace CanvasDemo.Canvas
     /// <summary>
     /// 选择框对象
     /// </summary>
-    public class ElementEditor : Element, IMouseEvent
+    public class ElementEditor : Element
     {
         SelectionBox SelectionBox;
 

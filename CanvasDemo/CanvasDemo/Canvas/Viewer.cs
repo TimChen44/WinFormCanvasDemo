@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace CanvasDemo.Canvas
 {
-    public class Viewer : IMouseEvent
+    public class Viewer
     {
         TimCanvas Canvas;
         public Viewer(TimCanvas canvas)
