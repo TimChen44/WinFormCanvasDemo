@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CanvasDemo.Canvas.Backgrounder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAACAAAIAAAAIAAAEAACAAgBABAAAAAIAAAAA=</HashCode>
+      <FileName>Canvas\Backgrounder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CanvasDemo.Canvas.TimCanvas" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCBBDBAAIDAAUQAAGCQAIAgAAAAgiEAEgBAoggAIgAQ=</HashCode>
+      <FileName>Canvas\Canvas.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CanvasDemo.Canvas.Element" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAIAAAAAACAAgAAAAAAAAIAAAAI=</HashCode>
+      <FileName>Canvas\Element.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasDemo.Canvas.ElementEditor" Collapsed="true">
+    <Position X="13" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkQpAAAAEAAAEIAAAgAEwAFAABoEAACAIAQAICQABc=</HashCode>
+      <FileName>Canvas\ElementEditor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CanvasDemo.Canvas.FocusElement" Collapsed="true">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAIAAAAI=</HashCode>
+      <FileName>Canvas\FocusElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasDemo.Canvas.Layer" Collapsed="true">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEEAAEAIQAAQAAAAEEAAAAIAAAICAAAI=</HashCode>
+      <FileName>Canvas\Layer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasDemo.Canvas.ObjElement&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Canvas\ObjectElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasDemo.Canvas.ObjElement" Collapsed="true">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgAAUAgAAACAUAAAAAAAAAAEAgAgBAAAAgo=</HashCode>
+      <FileName>Canvas\ObjectElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasDemo.Canvas.PointExtension" Collapsed="true">
+    <Position X="19" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAACAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Canvas\PointExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasDemo.Canvas.SelectionBox" Collapsed="true">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkEAAAAACQAAEAAQAAAAAAQAAAAEAAAAIAAAICAAAI=</HashCode>
+      <FileName>Canvas\SelectionBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CanvasDemo.Canvas.Viewer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAABAAEAECA0AIAAAAARQDAEAAABIAAAACAAQA=</HashCode>
+      <FileName>Canvas\Viewer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CanvasDemo.Data.CubeData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\CubeData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CanvasDemo.Painter.CubeElement" Collapsed="true">
+    <Position X="4.75" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Painter\CubeElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CanvasDemo.Painter.CubeLayer" Collapsed="true">
+    <Position X="1" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAI=</HashCode>
+      <FileName>Painter\CubeLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasDemo.Painter.RectangleElement" Collapsed="true">
+    <Position X="6" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAI=</HashCode>
+      <FileName>Painter\RectangleElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasDemo.Painter.SquareElement" Collapsed="true">
+    <Position X="3.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAI=</HashCode>
+      <FileName>Painter\SquareElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CanvasDemo.Canvas.IElementData" Collapsed="true">
+    <Position X="15.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Canvas\IElementData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CanvasDemo.Canvas.IMouseEvent" Collapsed="true">
+    <Position X="17.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAIAAAACAAAA=</HashCode>
+      <FileName>Canvas\IMouseEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tim.Forms.TimCanvas.IToolTipElement" Collapsed="true">
+    <Position X="19" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Canvas\IToolTipElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="CanvasDemo.Canvas.LayerChangedEvent" Collapsed="true">
+    <Position X="15.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Canvas\Canvas.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
