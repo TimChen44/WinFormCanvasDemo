@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tim.Forms.TimCanvas
+namespace CanvasDemo.Canvas
 {
     public interface IToolTipElement
     {
