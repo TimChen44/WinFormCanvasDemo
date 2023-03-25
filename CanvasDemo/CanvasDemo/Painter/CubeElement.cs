@@ -25,6 +25,7 @@ namespace CanvasDemo.Painter
         public bool IsHover { get; set; } = false;
 
         public static Brush FillBrush = new SolidBrush(Color.Blue);
+        public static Brush SelectBrush = new SolidBrush(Color.Green);
 
         public static Brush ErrorBrush = new SolidBrush(Color.Red);
 
@@ -35,7 +36,12 @@ namespace CanvasDemo.Painter
 
             var titleH = (int)(Rect.Height * 0.25);
 
-            var fillBrush = Data.IsError ? ErrorBrush : FillBrush;
+            //选择和错误使用不同的颜色
+            var fillBrush = FillBrush;
+            if (Data.IsError)
+                fillBrush = ErrorBrush;
+            else if (IsSelected)
+                fillBrush = SelectBrush;
 
             if (titleH * Viewer.Zoom > 10)//如果标题大于10就认真绘制，如哦小于那么就简化
             {

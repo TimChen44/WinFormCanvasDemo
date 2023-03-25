@@ -79,7 +79,7 @@ namespace CanvasDemo
                 }
             }
             timCanvas1.SetCurrentLayer(CubeLayer);
-         
+
 
             timCanvas1.Refresh();
         }
@@ -116,6 +116,18 @@ namespace CanvasDemo
         {
             timCanvas1.ToolTip = new ToolTipComponent(timCanvas1);
 
+        }
+
+        private void cSetText_Click(object sender, EventArgs e)
+        {
+            timCanvas1.ElementEditor.SelectedElements.ForEach(x =>
+            {
+                if (x is CubeElement cube)
+                {
+                    cube.Data.Title = cText.Text;
+                }
+            });
+            timCanvas1.Refresh();
         }
     }
 }

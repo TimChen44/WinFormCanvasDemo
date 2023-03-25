@@ -11,7 +11,7 @@ namespace CanvasDemo.Canvas
 {
     public delegate void LayerChangedEvent(Layer layer);
 
-    public class TimCanvas : PictureBox, IDisposable
+    public class TimCanvas : Control, IDisposable
     {
         public event LayerChangedEvent LayerChanged;
 

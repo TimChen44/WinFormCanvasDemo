@@ -29,155 +29,171 @@ namespace CanvasDemo
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.cInit = new System.Windows.Forms.ToolStripButton();
-            this.cLayer1 = new System.Windows.Forms.ToolStripButton();
-            this.cLayer2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.cFocusText = new System.Windows.Forms.ToolStripTextBox();
-            this.cFocusBtn = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.cState = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.timCanvas1 = new CanvasDemo.Canvas.TimCanvas();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.timCanvas1)).BeginInit();
-            this.SuspendLayout();
+            toolStrip1 = new System.Windows.Forms.ToolStrip();
+            cInit = new System.Windows.Forms.ToolStripButton();
+            toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            cLayer1 = new System.Windows.Forms.ToolStripButton();
+            cLayer2 = new System.Windows.Forms.ToolStripButton();
+            toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            cFocusText = new System.Windows.Forms.ToolStripTextBox();
+            cFocusBtn = new System.Windows.Forms.ToolStripButton();
+            toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            cState = new System.Windows.Forms.ToolStripButton();
+            toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            cText = new System.Windows.Forms.ToolStripTextBox();
+            cSetText = new System.Windows.Forms.ToolStripButton();
+            timer1 = new System.Windows.Forms.Timer(components);
+            timCanvas1 = new Canvas.TimCanvas();
+            toolTip1 = new System.Windows.Forms.ToolTip(components);
+            toolStrip1.SuspendLayout();
+            SuspendLayout();
             // 
             // toolStrip1
             // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cInit,
-            this.cLayer1,
-            this.cLayer2,
-            this.toolStripSeparator1,
-            this.cFocusText,
-            this.cFocusBtn,
-            this.toolStripSeparator2,
-            this.cState,
-            this.toolStripButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1036, 25);
-            this.toolStrip1.TabIndex = 0;
-            this.toolStrip1.Text = "toolStrip1";
+            toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { cInit, toolStripSeparator4, cLayer1, cLayer2, toolStripSeparator1, cFocusText, cFocusBtn, toolStripSeparator2, cState, toolStripButton1, toolStripSeparator3, cText, cSetText });
+            toolStrip1.Location = new System.Drawing.Point(0, 0);
+            toolStrip1.Name = "toolStrip1";
+            toolStrip1.Size = new System.Drawing.Size(1036, 25);
+            toolStrip1.TabIndex = 0;
+            toolStrip1.Text = "toolStrip1";
             // 
             // cInit
             // 
-            this.cInit.Image = ((System.Drawing.Image)(resources.GetObject("cInit.Image")));
-            this.cInit.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cInit.Name = "cInit";
-            this.cInit.Size = new System.Drawing.Size(76, 22);
-            this.cInit.Text = "初始数据";
-            this.cInit.Click += new System.EventHandler(this.cInit_Click);
+            cInit.Image = (System.Drawing.Image)resources.GetObject("cInit.Image");
+            cInit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            cInit.Name = "cInit";
+            cInit.Size = new System.Drawing.Size(76, 22);
+            cInit.Text = "初始数据";
+            cInit.Click += cInit_Click;
+            // 
+            // toolStripSeparator4
+            // 
+            toolStripSeparator4.Name = "toolStripSeparator4";
+            toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
             // 
             // cLayer1
             // 
-            this.cLayer1.Checked = true;
-            this.cLayer1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cLayer1.Image = ((System.Drawing.Image)(resources.GetObject("cLayer1.Image")));
-            this.cLayer1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cLayer1.Name = "cLayer1";
-            this.cLayer1.Size = new System.Drawing.Size(76, 22);
-            this.cLayer1.Text = "方块图层";
-            this.cLayer1.Click += new System.EventHandler(this.cLayer1_Click);
+            cLayer1.Checked = true;
+            cLayer1.CheckState = System.Windows.Forms.CheckState.Checked;
+            cLayer1.Image = (System.Drawing.Image)resources.GetObject("cLayer1.Image");
+            cLayer1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            cLayer1.Name = "cLayer1";
+            cLayer1.Size = new System.Drawing.Size(76, 22);
+            cLayer1.Text = "方块图层";
+            cLayer1.Click += cLayer1_Click;
             // 
             // cLayer2
             // 
-            this.cLayer2.Image = ((System.Drawing.Image)(resources.GetObject("cLayer2.Image")));
-            this.cLayer2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cLayer2.Name = "cLayer2";
-            this.cLayer2.Size = new System.Drawing.Size(76, 22);
-            this.cLayer2.Text = "圆形图层";
-            this.cLayer2.Click += new System.EventHandler(this.cLayer2_Click);
+            cLayer2.Image = (System.Drawing.Image)resources.GetObject("cLayer2.Image");
+            cLayer2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            cLayer2.Name = "cLayer2";
+            cLayer2.Size = new System.Drawing.Size(76, 22);
+            cLayer2.Text = "圆形图层";
+            cLayer2.Click += cLayer2_Click;
             // 
             // toolStripSeparator1
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // cFocusText
             // 
-            this.cFocusText.Name = "cFocusText";
-            this.cFocusText.Size = new System.Drawing.Size(100, 25);
+            cFocusText.Name = "cFocusText";
+            cFocusText.Size = new System.Drawing.Size(100, 25);
             // 
             // cFocusBtn
             // 
-            this.cFocusBtn.Image = ((System.Drawing.Image)(resources.GetObject("cFocusBtn.Image")));
-            this.cFocusBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cFocusBtn.Name = "cFocusBtn";
-            this.cFocusBtn.Size = new System.Drawing.Size(52, 22);
-            this.cFocusBtn.Text = "定位";
-            this.cFocusBtn.Click += new System.EventHandler(this.cFocusBtn_Click);
+            cFocusBtn.Image = (System.Drawing.Image)resources.GetObject("cFocusBtn.Image");
+            cFocusBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            cFocusBtn.Name = "cFocusBtn";
+            cFocusBtn.Size = new System.Drawing.Size(52, 22);
+            cFocusBtn.Text = "定位";
+            cFocusBtn.Click += cFocusBtn_Click;
             // 
             // toolStripSeparator2
             // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            toolStripSeparator2.Name = "toolStripSeparator2";
+            toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // cState
             // 
-            this.cState.Image = ((System.Drawing.Image)(resources.GetObject("cState.Image")));
-            this.cState.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cState.Name = "cState";
-            this.cState.Size = new System.Drawing.Size(76, 22);
-            this.cState.Text = "显示状态";
-            this.cState.Click += new System.EventHandler(this.cState_Click);
+            cState.Image = (System.Drawing.Image)resources.GetObject("cState.Image");
+            cState.ImageTransparentColor = System.Drawing.Color.Magenta;
+            cState.Name = "cState";
+            cState.Size = new System.Drawing.Size(76, 22);
+            cState.Text = "显示状态";
+            cState.Click += cState_Click;
             // 
             // toolStripButton1
             // 
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(76, 22);
-            this.toolStripButton1.Text = "悬停高亮";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            toolStripButton1.Image = (System.Drawing.Image)resources.GetObject("toolStripButton1.Image");
+            toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            toolStripButton1.Name = "toolStripButton1";
+            toolStripButton1.Size = new System.Drawing.Size(76, 22);
+            toolStripButton1.Text = "悬停高亮";
+            toolStripButton1.Click += toolStripButton1_Click;
+            // 
+            // toolStripSeparator3
+            // 
+            toolStripSeparator3.Name = "toolStripSeparator3";
+            toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            // 
+            // cText
+            // 
+            cText.Name = "cText";
+            cText.Size = new System.Drawing.Size(100, 25);
+            // 
+            // cSetText
+            // 
+            cSetText.Image = (System.Drawing.Image)resources.GetObject("cSetText.Image");
+            cSetText.ImageTransparentColor = System.Drawing.Color.Magenta;
+            cSetText.Name = "cSetText";
+            cSetText.Size = new System.Drawing.Size(76, 22);
+            cSetText.Text = "设置标题";
+            cSetText.Click += cSetText_Click;
             // 
             // timer1
             // 
-            this.timer1.Interval = 2000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            timer1.Interval = 2000;
+            timer1.Tick += timer1_Tick;
             // 
             // timCanvas1
             // 
-            this.timCanvas1.AllowDrop = true;
-            this.timCanvas1.Backgrounder = null;
-            this.timCanvas1.CurrentLayer = null;
-            this.timCanvas1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.timCanvas1.ElementEditor = null;
-            this.timCanvas1.IsLocked = false;
-            this.timCanvas1.IsRootFormActivated = true;
-            this.timCanvas1.Location = new System.Drawing.Point(0, 25);
-            this.timCanvas1.Name = "timCanvas1";
-            this.timCanvas1.Size = new System.Drawing.Size(1036, 708);
-            this.timCanvas1.TabIndex = 1;
-            this.timCanvas1.TabStop = false;
-            this.timCanvas1.Viewer = null;
+            timCanvas1.AllowDrop = true;
+            timCanvas1.Backgrounder = null;
+            timCanvas1.CurrentLayer = null;
+            timCanvas1.Dock = System.Windows.Forms.DockStyle.Fill;
+            timCanvas1.ElementEditor = null;
+            timCanvas1.IsLocked = false;
+            timCanvas1.IsRootFormActivated = true;
+            timCanvas1.Location = new System.Drawing.Point(0, 25);
+            timCanvas1.Name = "timCanvas1";
+            timCanvas1.Size = new System.Drawing.Size(1036, 708);
+            timCanvas1.TabIndex = 1;
+            timCanvas1.TabStop = false;
+            timCanvas1.Viewer = null;
             // 
             // toolTip1
             // 
-            this.toolTip1.Active = false;
-            this.toolTip1.ShowAlways = true;
+            toolTip1.Active = false;
+            toolTip1.ShowAlways = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1036, 733);
-            this.Controls.Add(this.timCanvas1);
-            this.Controls.Add(this.toolStrip1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.timCanvas1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(1036, 733);
+            Controls.Add(timCanvas1);
+            Controls.Add(toolStrip1);
+            Name = "Form1";
+            Text = "Form1";
+            toolStrip1.ResumeLayout(false);
+            toolStrip1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -195,6 +211,10 @@ namespace CanvasDemo
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripButton cState;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripTextBox cText;
+        private System.Windows.Forms.ToolStripButton cSetText;
     }
 }
 

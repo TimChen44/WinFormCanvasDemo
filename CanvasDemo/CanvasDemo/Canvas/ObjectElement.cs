@@ -35,7 +35,7 @@ namespace CanvasDemo.Canvas
         }
 
         /// <summary>
-        /// 是否非选中
+        /// 是否是选中
         /// </summary>
         public bool IsSelected { get; private set; } = false;
 
